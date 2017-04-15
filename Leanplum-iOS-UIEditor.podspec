@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name = 'Leanplum-iOS-Editor'
+  s.name = 'Leanplum-iOS-UIEditor-static'
   s.version = '2.0.0-SNAPSHOT+1492093004'
   s.summary = 'Mobile Marketing Platform. Integrated. ROI Engine.'
   s.description = 'Leanplum’s integrated solution delivers meaningful engagement across messaging and the in-app experience. We offer Messaging, Automation, App Editing, Personalization, A/B Testing, and Analytics.'
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/leanplum'
   s.platform = :ios, '6.0'
   s.requires_arc = true
-  s.source = { :git => 'https://github.com/Leanplum/Leanplum-iOS-UIEditor-internal.git', :tag => s.version.to_s }
+  s.source = { :git => 'https://github.com/Leanplum/Leanplum-iOS-UIEditor-static.git', :tag => s.version.to_s }
   s.frameworks = 'UIKit'
   s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
   s.preserve_paths = 'LeanplumUIEditor.framework'

@@ -17,4 +17,5 @@ Pod::Spec.new do |s|
   s.source_files = 'LeanplumUIEditor.framework/Headers/*.h'
   s.public_header_files = 'LeanplumUIEditor.framework/Headers/*.h'
   s.vendored_frameworks = 'LeanplumUIEditor.framework'
+  s.dependency 'Leanplum-iOS-SDK-static', '~> 2.0.0-SNAPSHOT+1492093004'
 end

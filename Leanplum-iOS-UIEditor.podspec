@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name = 'Leanplum-iOS-UIEditor-static'
   s.version = '2.0.0-SNAPSHOT+1492093004'
-  s.summary = 'Mobile Marketing Platform. Integrated. ROI Engine.'
-  s.description = 'Leanplum’s integrated solution delivers meaningful engagement across messaging and the in-app experience. We offer Messaging, Automation, App Editing, Personalization, A/B Testing, and Analytics.'
+  s.summary = 'Supplementary Leanplum pod to provide UI Editor support.'
+  s.description = 'The UI Editor allows you to modify the appearance of any static screen within your app on the fly, without having to re-submit your app to the App Store.'
   s.homepage = 'https://www.leanplum.com'
   s.license = { :type => 'Commercial', :text => 'See https://www.leanplum.com/tos' }
   s.author = { 'Leanplum' => 'support@leanplum.com' }

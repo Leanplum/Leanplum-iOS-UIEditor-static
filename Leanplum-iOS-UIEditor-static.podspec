@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'Leanplum-iOS-UIEditor-static'
-  s.version = '2.0.4'
+  s.version = '2.0.5'
   s.summary = 'Supplementary Leanplum pod to provide UI Editor support.'
   s.description = 'The UI Editor allows you to modify the appearance of any static screen within your app on the fly, without having to re-submit your app to the App Store.'
   s.homepage = 'https://www.leanplum.com'
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/leanplum'
   s.platform = :ios, '7.0'
   s.requires_arc = true
-  s.source = { :http => 'https://github.com/Leanplum/Leanplum-iOS-UIEditor-static/releases/download/2.0.4/LeanplumUIEditor.framework.zip' }
+  s.source = { :http => 'https://github.com/Leanplum/Leanplum-iOS-UIEditor-static/releases/download/2.0.5/LeanplumUIEditor.framework.zip' }
   s.frameworks = 'UIKit'
   s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
   s.preserve_paths = 'LeanplumUIEditor.framework'
@@ -17,5 +17,5 @@ Pod::Spec.new do |s|
   s.source_files = 'LeanplumUIEditor.framework/Headers/*.h'
   s.public_header_files = 'LeanplumUIEditor.framework/Headers/*.h'
   s.vendored_frameworks = 'LeanplumUIEditor.framework'
-  s.dependency 'Leanplum-iOS-SDK-static', '~> 2.0.4'
+  s.dependency 'Leanplum-iOS-SDK-static', '~> 2.0.5'
 end
